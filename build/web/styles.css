@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap");
+
+:root {
+  --body-color: rgba(255, 255, 255, 0.79);
+}
+
+body {
+  /* background: url("img/gif2.gif") no-repeat center center fixed;
+  background-size: 100%; */
+  color: var(--body-color);
+  background-color: black;
+}
+.container p {
+  color: var(--body-color);
+}
+
+.card,
+.card-body form .mb-3 input {
+  background-color: transparent;
+  color: var(--body-color);
+}
+
+.border_estilos {
+  border-left: rgba(255, 255, 255, 0.406) 3px solid;
+}
+
+.hello {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-size: 50px;
+}
+
+.card-body form .mb-3 input::placeholder {
+  color: var(--body-color);
+  opacity: 1;
+}
+
+.card-body form .mb-3 input::-moz-placeholder {
+  color: var(--body-color);
+  opacity: 1;
+}
+
+.card-body form .mb-3 input:-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.card-body form .mb-3 input::-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.input-container {
+  position: relative;
+}
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--body-color);
+}
+
+
